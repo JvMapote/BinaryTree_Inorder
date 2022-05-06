@@ -1,4 +1,3 @@
-#In order travesal
 class Node:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -11,6 +10,7 @@ def inorder(node):
     inorder(node.left)
     print(node.val)
     inorder(node.right)
+
 
 root = Node(2)
 root.left = Node(7)

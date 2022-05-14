@@ -1,4 +1,3 @@
-
 class Node:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -21,4 +20,3 @@ root.left.right = Node(7)
 root.right.right = Node(20)
 
 inorder(root)
-
